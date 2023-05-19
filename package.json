@@ -15,12 +15,15 @@
     "aos": "^3.0.0-beta.6",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
+    "esm": "^3.2.25",
     "gsap": "^3.11.4",
     "next": "13.2.4",
+    "progress": "^2.0.3",
     "react": "18.2.0",
     "react-countup": "^6.4.2",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
+    "react-progressbar": "^15.4.1",
     "react-scroll-trigger": "^0.6.14"
   },
   "devDependencies": {

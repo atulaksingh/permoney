@@ -5,9 +5,9 @@ function Support() {
   return (
     <>
       <div className="container mx-auto bg-white text-black pt-20">
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="col-span-1 mx-auto">
-            <div   className="relative h-[450px] w-[400px] ">
+            <div   className="relative h-[350px] lg:h-[450px] w-[300px] lg:w-[400px] ">
               <Image
                 src={
                   "https://res.cloudinary.com/dt0j68vdr/image/upload/v1678789638/Group_18_dfu6sx.png"

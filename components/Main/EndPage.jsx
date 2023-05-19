@@ -14,7 +14,7 @@ function EndPage() {
       <div className="container mx-auto py-20 bg-white text-black">
         <div className="bg-black text-white w-[80%] mx-auto rounded-3xl border-r-8  border-b-8 border-green-400">
           <div className="grid grid-cols-12">
-            <div className="col-span-7 m-auto">
+            <div className="col-span-12 lg:col-span-7 m-auto">
               <div className="w-[70%] mx-auto">
                 <h1 className="py-5 text-[35px]">Get started for free</h1>
                 <div className="text-[13px] text-gray-500">
@@ -40,13 +40,13 @@ function EndPage() {
               data-aos-offset="120"
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="col-span-5 mt-28"
+              className="col-span-12 lg:col-span-5 mt-28"
             >
               <ScrollTrigger
                 onEnter={() => setCounterOn(true)}
                 onExit={() => setCounterOn(false)}
               >
-                <div className="bg-white text-black w-[60%] mt-5 px-5 pt-5 rounded-3xl border-r-8   border-green-400">
+                <div className="bg-white text-black w-[90%] lg:w-[60%] mt-5 px-5 pt-5 rounded-3xl border-r-8 mx-auto  border-green-400">
                   <div className="flex justify-between">
                     <div className="text-base font-bold">My wallet</div>
                     <div className="text-xs border border-black  my-auto rounded-md px-1">
@@ -110,6 +110,7 @@ function EndPage() {
                         />
                       </Box>
                       <div className="font-[900] text-[15px] mt-1">$21.3k</div>
+                      
                     </div>
                     <div className="text-gray-700 text-[10px] font-[800]">
                       17.75%
@@ -124,13 +125,13 @@ function EndPage() {
                       <div
                         data-aos="fade-right"
                         data-aos-duration="1000"
-                        className="bg-black text-white p-3 rounded-xl"
+                        className="bg-black text-white p-1.5 lg:p-3 rounded-xl"
                       >
                         <div className="  p-1 bg-black    inline-block rounded-full">
                           <AiOutlineArrowDown size={20} color="green" />
                         </div>
                         <div className="text-[13px]">Bitcoin</div>
-                        <div className="font-[700]">$43.241</div>
+                        <div className=" text-[14px] lg:text-[20px] font-[700]">$43.241</div>
                         <div className="text-gray-700 text-[10px] font-[800]">
                           17.75%
                         </div>
@@ -138,13 +139,13 @@ function EndPage() {
                       <div
                         data-aos="fade-right"
                         data-aos-duration="1000"
-                        className="bg-black text-white p-3 rounded-xl"
+                        className="bg-black text-white p-1.5 lg:p-3 rounded-xl"
                       >
                         <div className="  p-1 bg-black    inline-block rounded-full">
                           <AiOutlineArrowDown size={20} color="green" />
                         </div>
                         <div className="text-[13px]">Bitcoin</div>
-                        <div className="font-[700]">$43.241</div>
+                        <div className="text-[14px] lg:text-[20px] font-[700]">$43.241</div>
                         <div className="text-gray-700 text-[10px] font-[800]">
                           17.75%
                         </div>
@@ -152,13 +153,13 @@ function EndPage() {
                       <div
                         data-aos="fade-right"
                         data-aos-duration="1000"
-                        className="bg-black text-white p-3 rounded-xl"
+                        className="bg-black text-white p-1.5 lg:p-3 rounded-xl"
                       >
                         <div className="  p-1 bg-black    inline-block rounded-full">
                           <AiOutlineArrowDown size={20} color="green" />
                         </div>
                         <div className="text-[13px]">Bitcoin</div>
-                        <div className="font-[700]">$43.241</div>
+                        <div className="text-[14px] lg:text-[20px] font-[700]">$43.241</div>
                         <div className="text-gray-700 text-[10px] font-[800]">
                           17.75%
                         </div>

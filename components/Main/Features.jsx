@@ -18,7 +18,7 @@ useEffect(() => {
       <div className="container mx-auto bg-white text-black">
         <div className="text-center">
           <h1 className="font-bold text-4xl py-5">Features</h1>
-          <p className="text-lg w-96 m-auto">
+          <p className="text-lg w-[90%] m-auto">
             Simple functional and modern design can help you easy control your
             money
           </p>
@@ -27,8 +27,8 @@ useEffect(() => {
           onEnter={() => setCounterOn(true)}
           onExit={() => setCounterOn(false)}
         >
-          <div className="grid grid-cols-2 mx-40">
-            <div className="col-span-1 py-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 lg:mx-40">
+            <div className="col-span-1 py-5 lg:py-10">
               <div className="w-[90%]     mx-auto border-2 border-black rounded-3xl">
                 <div className="p-5">
                   <h1 className="font-bold text-2xl">Easy Control</h1>
@@ -64,7 +64,7 @@ useEffect(() => {
                 </div>
               </div>
             </div>
-            <div className="col-span-1 py-10">
+            <div className="col-span-1 py-5 lg:py-10">
               <div className="w-[90%] p-5  bg-[#66cf64e3] mx-auto border-2 border-black rounded-3xl">
                 <div className="font-bold text-2xl">
                   <h1>Real Time Accounting</h1>

@@ -10,7 +10,7 @@ import Support from '../../components/Main/Support'
 import Footer from '../../components/Shared/Footer'
 import EndPage from '../../components/Main/EndPage'
 import React, { useState, useEffect } from 'react';
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -27,6 +27,7 @@ export default function Home() {
     };
   }, []);
 
+
   return (
     <>
       <Head>
@@ -37,9 +38,9 @@ export default function Home() {
       </Head>
    
  <div id='animate-area'>
-<div   className="cursor z-10"
+<div   className="cursor "
       style={{ left: position.x, top: position.y }} ></div>
- <div  className=" mx-16 z-50">
+ <div  className=" lg:mx-16 z-50">
   <Header />
   <Hero />
   <Work />

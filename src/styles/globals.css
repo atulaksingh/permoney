@@ -88,12 +88,13 @@ body {
     transform: translate(-270%, 800px);
     transform: rotate(360deg,0deg);
     width: 250px;
+    z-index: 10;
     height: 180px;
+      transition: transform 1s;
   }
-  75% {
+  70% {
     opacity: 10;
-    transform: translate(10%,50%);
-    /* transform: rotate(360deg,0deg); */
+    transform: translate(-220px,-100px);
     width: 250px;
     height: 180px;
   }

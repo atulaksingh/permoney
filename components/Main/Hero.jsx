@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { AiOutlineApple } from 'react-icons/ai';
 import { useEffect, useState } from 'react';
+
 function Hero() {
   const [shouldAnimate, setShouldAnimate] = useState(false);
 
@@ -24,10 +25,10 @@ function Hero() {
   return (
     <>
       <div className="container mx-auto pb-32 bg-white text-black">
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="col-span-1 my-auto">
-            <div className="ml-14  my-auto">
-              <span className="text-[70px] leading-[78px] font-bold ">
+            <div className="sm:ml-5 lg:ml-14  my-auto">
+              <span className="text-[40px]  sm:text-[50px] lg:text-[70px] leading-[45px] lg:leading-[78px] font-bold ">
                 An easy way to control
                 <span className="text-[#85fc8f]">your finances</span>
               </span>
@@ -48,7 +49,7 @@ function Hero() {
           </div>
           <div className="col-span-1 m-auto ">
            <div className="mt-5">
-           <div className="relative h-[550px] w-80 parent">
+           <div className="relative h-[330px] sm:h-[400px] lg:h-[550px] w-48 sm:w-60 lg:w-80 parent">
               <Image 
                 src={"https://res.cloudinary.com/dt0j68vdr/image/upload/v1678787443/Group_21_1_hayrkh.png"}
                 alt
@@ -56,24 +57,24 @@ function Hero() {
               />
               <div 
                 data-aos="zoom-in-right"  data-aos-duration="1000"
-                 className="absolute top-10 -right-[140px] h-[270px] w-[270px]">
+                 className="absolute top-10 -right-[70px] sm:-right-[100px] lg:-right-[140px] h-[160px] sm:h-[200px] lg:h-[270px] w-[150px] sm:w-[200px] lg:w-[270px]">
               <Image 
                 src={"https://res.cloudinary.com/dt0j68vdr/image/upload/v1678787430/Group_20_xmb8m9.png"}
                 alt
                 layout="fill"
               />
               </div>
-              <div className={shouldAnimate ? 'fade-in' : 'absolute -bottom-[70px] -left-[150px] h-[200px] w-[230px]'}>
+              {/* <div className={shouldAnimate ? 'fade-in' : 'absolute -bottom-[70px] -left-[150px] h-[200px] w-[230px]'}>
               <Image 
                 src={"https://res.cloudinary.com/dt0j68vdr/image/upload/v1678794468/Vector_21_2_b9aufz.png"}
                 alt
                 layout="fill"
                 className=""
               />
-              </div>
+              </div> */}
               <div 
                 data-aos="zoom-in-right"   data-aos-duration="1000"
-                 className="absolute -bottom-[70px] -left-[150px] h-[200px] w-[230px]">
+                 className="absolute -bottom-[28px] sm:-bottom-[55px]  lg:-bottom-[70px] -left-[55px] sm:-left-[100px] lg:-left-[150px] h-[100px] sm:h-[150px] w-[100px] sm:w-[170px] lg:h-[200px] lg:w-[230px]">
               <Image 
                 src={"https://res.cloudinary.com/dt0j68vdr/image/upload/v1678787434/Group_21_xzehxz.png"}
                 alt
